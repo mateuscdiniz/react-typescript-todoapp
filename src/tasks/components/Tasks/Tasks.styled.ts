@@ -1,7 +1,8 @@
 import styled from 'styled-components'
 
 const TasksStyled = styled.ul({
-  flexDirection: 'column-reverse',
+  cursor: 'pointer',
+
   color: '#40F99B',
 })
 

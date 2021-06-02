@@ -17,12 +17,35 @@ const TaskStyled = styled.li({
   paddingBottom: '20px',
   borderBottom: '4px solid #fff',
   marginBottom: '1.5rem',
+  cursor: 'pointer',
+})
+
+const RemoveButtonStyled = styled.button({
+  justifyContent: 'center',
+  fontWeight: 'bold',
+  outline: 'none',
+  border: 'none',
+  height: '20px',
+  borderRadius: '25px',
+  width: '60px',
+  backgroundColor: '#40F99B',
+  color: 'black',
+  cursor: 'pointer',
+  transition: '.10s',
+  marginLeft: '31vh',
 })
 
 const TextStyled = styled.span<TaskStyledProps>(({ isDone }) => {
   return {
     textDecoration: isDone ? 'line-through' : 'none',
+    cursor: 'pointer',
   }
 })
 
-export { LabelStyled, TaskInputStyled, TaskStyled, TextStyled }
+export {
+  LabelStyled,
+  TaskInputStyled,
+  TaskStyled,
+  TextStyled,
+  RemoveButtonStyled,
+}
