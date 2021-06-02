@@ -10,6 +10,7 @@ const LabelStyled = styled.label({
 const TaskInputStyled = styled.input({
   marginRight: '15px',
   transform: 'scale(1.1)',
+  cursor: 'pointer',
 })
 const TaskStyled = styled.li({
   listStyleType: 'none',

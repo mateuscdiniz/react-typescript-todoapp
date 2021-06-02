@@ -79,9 +79,12 @@ const Tasks: React.FC = () => {
         </SaveButtonStyled>
       </Form>
       <TasksStyled data-testid="task-list">
-        {tasks.map((task) => (
-          <Task key={task.id} task={task} toggleComplete={toggleComplete} />
-        ))}
+        {tasks
+          .slice()
+          .reverse()
+          .map((task) => (
+            <Task key={task.id} task={task} toggleComplete={toggleComplete} />
+          ))}
       </TasksStyled>
     </>
   )
