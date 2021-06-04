@@ -13,6 +13,8 @@ const TaskInputStyled = styled.input({
   cursor: 'pointer',
 })
 const TaskStyled = styled.li({
+  display: 'flex',
+  justifyContent: 'space-between',
   listStyleType: 'none',
   paddingBottom: '20px',
   borderBottom: '4px solid #fff',
@@ -21,14 +23,13 @@ const TaskStyled = styled.li({
 })
 
 const RemoveButtonStyled = styled.button({
-  justifyContent: 'center',
   fontWeight: 'bold',
   outline: 'none',
   border: 'none',
   height: '20px',
   borderRadius: '25px',
   width: '60px',
-  backgroundColor: '#40F99B',
+  backgroundColor: '#61707D',
   color: 'black',
   cursor: 'pointer',
   transition: '.10s',
