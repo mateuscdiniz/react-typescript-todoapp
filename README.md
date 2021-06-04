@@ -11,4 +11,7 @@ Todoapp with typescript, styled components and localStorage.
 
 URL: https://react-typescript-todoapp.vercel.app/
 
+![image](https://user-images.githubusercontent.com/26740302/120855113-71acb200-c554-11eb-8c66-5f0f0bb2aad4.png)
+
+
 
