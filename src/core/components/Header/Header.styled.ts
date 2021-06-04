@@ -1,7 +1,9 @@
 import styled from 'styled-components'
 
 const HeaderStyled = styled.header({
-  marginLeft: '25vh',
+  display: 'flex',
+  justifyContent: 'center',
+  padding: '40px',
   color: '#40F99B',
   textTransform: 'uppercase',
   fontWeight: 'bold',

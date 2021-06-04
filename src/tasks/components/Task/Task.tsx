@@ -11,6 +11,7 @@ import {
 } from './Task.styled'
 import { SetTasksContext, TaskContext } from '../../../contexts/taskContext'
 import CloseIcon from '../../../shared/icons/CloseIcon/CloseIcon'
+import ControlsContainer from '../../../shared/components/ControlsContainer/ControlsContainer.styled'
 
 const Task: React.FC<TaskProps> = ({ task, toggleComplete }) => {
   const tasks = useContext(TaskContext)
@@ -32,11 +33,12 @@ const Task: React.FC<TaskProps> = ({ task, toggleComplete }) => {
           checked={task.isDone}
         />
         <TextStyled isDone={task.isDone}>{task.description} </TextStyled>
-
-        <RemoveButtonStyled type="button" onClick={() => handleDelete(task.id)}>
-          <CloseIcon />
-        </RemoveButtonStyled>
       </LabelStyled>
+      <ControlsContainer>
+        <RemoveButtonStyled type="button" onClick={() => handleDelete(task.id)}>
+          <CloseIcon hoverColor="#40F99B" />
+        </RemoveButtonStyled>
+      </ControlsContainer>
     </TaskStyled>
   )
 }

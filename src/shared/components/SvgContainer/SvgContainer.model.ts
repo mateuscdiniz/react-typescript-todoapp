@@ -7,6 +7,7 @@ type SvgContainerProps = BoxProps & {
   viewBox?: string
   children: JSX.Element
   rotationDegrees?: number
+  hoverColor?: string
 }
 
 export default SvgContainerProps

@@ -17,6 +17,7 @@ function SvgContainer({
   paddingBottom,
   paddingRight,
   paddingLeft,
+  hoverColor,
 }: SvgContainerProps) {
   const styles = {
     display: 'flex',
@@ -35,9 +36,14 @@ function SvgContainer({
     paddingBottom,
     paddingRight,
     paddingLeft,
+    '&:hover': {
+      // fill: hoverColor,
+      display: 'none',
+    },
   }
 
   const DEFAULT_DIMENSION = 24
+  console.log(hoverColor)
 
   return (
     <svg
