@@ -14,16 +14,16 @@ const FormInputStyled = styled.input({
   padding: '0.5rem 1rem',
   outline: 'none',
   border: 'none',
-  height: '30px',
+  height: '45px',
   borderRadius: '25px',
   width: '350px',
-  marginLeft: '48px',
-  transition: '.5s',
+  marginLeft: '10px',
+
   fontSize: '1.15rem',
 })
 
 const SaveButtonStyled = styled.button({
-  fontWeight: 'bold',
+  fontFamily: 'Ubuntu Regular',
   outline: 'none',
   border: 'none',
   height: '50px',
