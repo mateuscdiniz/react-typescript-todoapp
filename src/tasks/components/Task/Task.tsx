@@ -36,7 +36,7 @@ const Task: React.FC<TaskProps> = ({ task, toggleComplete }) => {
       </LabelStyled>
       <ControlsContainer>
         <RemoveButtonStyled type="button" onClick={() => handleDelete(task.id)}>
-          <CloseIcon hoverColor="#40F99B" />
+          <CloseIcon />
         </RemoveButtonStyled>
       </ControlsContainer>
     </TaskStyled>

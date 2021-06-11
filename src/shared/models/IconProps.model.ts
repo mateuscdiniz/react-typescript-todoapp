@@ -13,7 +13,6 @@ interface IconProps {
   paddingBottom?: number
   paddingRight?: number
   paddingLeft?: number
-  hoverColor?: string
 }
 
 export default IconProps

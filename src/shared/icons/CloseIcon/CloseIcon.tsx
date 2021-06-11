@@ -1,7 +1,7 @@
 import * as React from 'react'
 
 import { SvgContainer } from '../../components'
-import IconProps from '../models/IconProps.model'
+import { IconProps } from '../../models'
 
 // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 function CloseIcon({
@@ -19,7 +19,6 @@ function CloseIcon({
   paddingLeft = 1,
   paddingRight = 1,
   paddingBottom = 0,
-  hoverColor,
 
   rotationDegrees,
   color = 'white',
@@ -38,14 +37,13 @@ function CloseIcon({
       paddingBottom={paddingBottom}
       paddingRight={paddingRight}
       paddingLeft={paddingLeft}
-      hoverColor={hoverColor}
     >
       <>
         <title>{title || 'Close Icon'}</title>
         <path
           fill={color}
-          d={`M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59
-            12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z`}
+          d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59
+            12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
         />
       </>
     </SvgContainer>

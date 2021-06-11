@@ -29,6 +29,14 @@ const TaskStyled = styled.li({
 
 const RemoveButtonStyled = styled.button({
   backgroundColor: 'transparent',
+  path: {
+    transition: '.2s ease all',
+  },
+  '&:hover': {
+    path: {
+      fill: '#40F99B',
+    },
+  },
 })
 
 const TextStyled = styled.span<TaskStyledProps>(({ isDone }) => {

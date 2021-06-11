@@ -1,4 +1,4 @@
-import BoxProps from '../../icons/models/BoxProps.model'
+import BoxProps from '../../models/BoxProps.model'
 
 type SvgContainerProps = BoxProps & {
   id?: string
@@ -7,7 +7,6 @@ type SvgContainerProps = BoxProps & {
   viewBox?: string
   children: JSX.Element
   rotationDegrees?: number
-  hoverColor?: string
 }
 
 export default SvgContainerProps
