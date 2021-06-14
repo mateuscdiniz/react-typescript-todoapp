@@ -5,14 +5,13 @@ const FooterStyled = styled.div({
   justifyContent: 'center',
   alignItems: 'center',
   fontSize: '15px',
-  fontFamily: 'Ubuntu Regular',
+  fontFamily: 'Ubuntu Bold ',
   color: '#F5FBEF',
-  '&:hover': {
-    pre: {
-      a: {
-        color: '#40F99B',
-        transition: '.2s ease all',
-      },
+
+  a: {
+    '&:hover': {
+      color: '#40F99B',
+      transition: '.2s ease all',
     },
   },
 })
