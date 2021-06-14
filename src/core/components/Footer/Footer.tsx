@@ -5,7 +5,10 @@ import FooterStyled from './Footer.styled'
 const Footer: React.FC = () => {
   return (
     <FooterStyled data-testid="footer">
-      <ReactIcon />
+      Created with <ReactIcon /> by{'  '}
+      <pre>
+        <a href="http://www.github.com/mateuscdiniz"> Mateus César</a>
+      </pre>
     </FooterStyled>
   )
 }

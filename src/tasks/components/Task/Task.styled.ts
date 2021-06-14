@@ -30,7 +30,7 @@ const TaskStyled = styled.li({
 const RemoveButtonStyled = styled.button({
   backgroundColor: 'transparent',
   path: {
-    transition: '.2s ease all',
+    transition: '.02s ease all',
   },
   '&:hover': {
     path: {
