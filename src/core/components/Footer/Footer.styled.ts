@@ -4,7 +4,7 @@ const FooterStyled = styled.div({
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
-  fontSize: '20px',
+  fontSize: '15px',
   fontFamily: 'Ubuntu Regular',
   color: '#F5FBEF',
   '&:hover': {

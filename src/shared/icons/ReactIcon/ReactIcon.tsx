@@ -7,8 +7,8 @@ import { IconProps } from '../../models'
 function ReactIcon({
   id,
   title,
-  width = 40,
-  height = 50,
+  width = 35,
+  height = 23,
 
   marginTop = 0,
   marginLeft = 0,
